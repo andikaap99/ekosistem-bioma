@@ -10,7 +10,7 @@
 </head>
 <body class="bg-white">
     <!-- navbar -->
-    <nav id="navbar-desktop" class="shadow-xl p-6 flex justify-between items-center fixed top-0 left-0 w-full z-50 lg:flex" style="background-color: rgba(205, 206, 207, 0.3);">
+    <nav id="navbar-desktop" class="shadow-xl p-6 flex justify-between items-center fixed top-0 left-0 w-full z-40 lg:flex" style="background-color: rgba(205, 206, 207, 0.3);">
         <div class="min320:ml-4 min410:ml-6 lg:hidden">
             <button id="menu-btn-desktop" class="text-purple-800 text-3xl">
                 ☰
@@ -28,7 +28,7 @@
         </div>
     </nav>
 
-    <nav id="navbar-mobile" class="shadow-xl p-6 flex justify-between items-center fixed top-0 left-0 w-full z-50 lg:hidden" style="background-color: rgba(205, 206, 207, 1);">
+    <nav id="navbar-mobile" class="shadow-xl p-6 flex justify-between items-center fixed top-0 left-0 w-full z-40 lg:hidden" style="background-color: rgba(205, 206, 207, 1);">
         <div class="min320:ml-4 min410:ml-6 lg:hidden">
             <button id="menu-btn" class="text-purple-800 text-3xl">
                 ☰
@@ -55,7 +55,7 @@
 
     <div class="mt-24 lg:p-4">
         <!-- Sidebar -->
-        <aside class="w-64 overflow-y-auto max-h-screen fixed hidden lg:block rounded" style="background-color: rgba(205, 206, 207, 1);">
+        <aside id="sidebar-dekstop" class="w-64 overflow-y-auto max-h-screen fixed hidden lg:block rounded" style="background-color: rgba(205, 206, 207, 1);">
             <ul class="py-2 px-2">
                 <li>
                     <a href="#" class="block p-2 text-black font-bold hover:bg-white transition" onclick="loadContent('pretest.html')">Pretest</a>
